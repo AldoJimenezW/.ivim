@@ -1,3 +1,5 @@
+-- Adding options
+require("doti.options")
 -- Adding keybindRemap
 require("doti.keybindRemap")
 -- Adding lazy
