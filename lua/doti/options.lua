@@ -34,10 +34,15 @@ opt.swapfile = false
 opt.backup = false
 opt.encoding = "UTF-8"
 
--- undo
+-- undo persistente
+opt.undofile = true
+opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 
+-- Performance
+opt.updatetime = 50
 
+-- Visual guide para line length (común en C)
+opt.colorcolumn = "80"
 
-
-
-
+-- Clipboard compartido con el sistema
+opt.clipboard = "unnamedplus"
