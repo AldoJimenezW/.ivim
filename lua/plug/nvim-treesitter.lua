@@ -7,20 +7,31 @@ local config = function()
             enable = true,
         },
         ensure_installed = {
+            -- Config/Data formats
             "markdown",
             "json",
+            "yaml",
+            "toml",
+            "dockerfile",
+            "gitignore",
+            -- Web
             "javascript",
             "typescript",
-            "yaml",
             "html",
             "css",
-            "bash",
-            "lua",
-            "dockerfile",
-            "solidity",
-            "gitignore",
-            "python",
             "vue",
+            -- Backend/Systems
+            "c",
+            "cpp",
+            "go",
+            "rust",
+            "python",
+            "lua",
+            "bash",
+            "make",
+            "cmake",
+            -- Blockchain
+            "solidity",
         },
         auto_install = true,
         highlight = {
